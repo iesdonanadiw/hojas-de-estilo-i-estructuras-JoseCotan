@@ -1,0 +1,52 @@
+body {
+    background-color: #7393A5;
+}
+
+div {
+    width: 100%;
+    position: fixed;
+    z-index: 150;
+    float: left;
+}
+
+div ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+div ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+div ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+div ul li:hover {
+    background: #eca023;
+}
+
+.uno{
+    float: right;
+    margin: 0px 10px 0px 0px;
+}
+
+.dos{
+    float: right;
+    margin: 0px 30px 0px 0px;
+}
+
+.tres{
+    float: left;
+    margin: 0px 10px 0px -20px;
+}
+
+.cuatro{
+    float: center;
+    margin: 110px 0px 0px 0px;
+}
